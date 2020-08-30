@@ -1,5 +1,6 @@
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <style>
         .form-wrapper {
@@ -25,6 +26,7 @@
 
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // print_r($_POST);
         $e_time = ($_POST["hours"] * 3600) + ($_POST["minutes"] * 60) + $_POST["seconds"];
         $pace_time = ($_POST["p_minutes"] * 60) + $_POST["p_seconds"];
         $distance = $_POST["distance"];
@@ -32,7 +34,6 @@
         $pace_result = $_POST["p_minutes"] . ":" . padNumbers($_POST["p_seconds"]);
 
         // echo "Time: $e_time Pace: $pace_time Distance: $distance Time Result: $time_result Pace Result: $pace_result";
-
         $counter = 0;
         if ($e_time) {
             $counter++; };
@@ -98,7 +99,7 @@
             </div>
             <div class="field">
                 <label>Seconds</label>
-                <input type="number" name="minutes" min="0" max="59" maxlength="2" value="<?php $seconds;?>" placeholder="Seconds">
+                <input type="number" name="seconds" min="0" max="59" maxlength="2" value="<?php $seconds;?>" placeholder="Seconds">
             </div>
         </div>
     <!-- </div> -->
