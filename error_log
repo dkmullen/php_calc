@@ -1,0 +1,28 @@
+[29-Aug-2020 07:54:09 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home3/dkmullen/public_html/php/index.php on line 5
+[29-Aug-2020 07:57:12 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home3/dkmullen/public_html/php/index.php on line 34
+[29-Aug-2020 08:14:15 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 29
+[29-Aug-2020 08:15:05 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 29
+[29-Aug-2020 08:17:14 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 29
+[29-Aug-2020 08:17:25 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 43
+[29-Aug-2020 08:18:05 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 43
+[29-Aug-2020 08:18:34 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 43
+[29-Aug-2020 08:20:33 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 43
+[29-Aug-2020 08:23:32 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 44
+[29-Aug-2020 08:23:38 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 44
+[29-Aug-2020 08:24:00 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 44
+[29-Aug-2020 08:27:41 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 44
+[29-Aug-2020 08:37:07 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 44
+[29-Aug-2020 08:37:15 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 44
+[29-Aug-2020 08:37:48 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 44
+[29-Aug-2020 08:42:03 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 30
+[29-Aug-2020 08:44:44 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 30
+[29-Aug-2020 09:09:52 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/dkmullen/public_html/php/index.php on line 12
+[29-Aug-2020 09:11:19 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/dkmullen/public_html/php/index.php on line 12
+[29-Aug-2020 09:12:42 America/Chicago] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home3/dkmullen/public_html/php/index.php on line 12
+[29-Aug-2020 09:13:20 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home3/dkmullen/public_html/php/index.php on line 12
+[29-Aug-2020 09:13:53 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/dkmullen/public_html/php/index.php on line 13
+[29-Aug-2020 09:19:31 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 34
+[29-Aug-2020 09:21:08 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 34
+[29-Aug-2020 10:44:36 America/Chicago] PHP Warning:  Division by zero in /home3/dkmullen/public_html/php/index.php on line 27
+[29-Aug-2020 10:51:14 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/dkmullen/public_html/php/index.php on line 43
+[29-Aug-2020 10:57:37 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/dkmullen/public_html/php/index.php on line 51
