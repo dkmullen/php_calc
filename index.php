@@ -130,7 +130,6 @@
     <button class="ui black button" type="submit">Submit</button>
     <br />
     <br />
-    <div><?php $error;?></div>
     </form>
 
     <?php
