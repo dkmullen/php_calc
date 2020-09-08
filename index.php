@@ -9,17 +9,20 @@
             background-color: #e6e8e9; 
             padding: 15px;
         }
+        .button-wrapper {
+            display: inline-block;
+        }
         /* Webkit - hide arrows on number inputs */
-            input::-webkit-outer-spin-button,
-            input::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-            margin: 0;
-            }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
 
-            /* Firefox */
-            input[type=number] {
-            -moz-appearance: textfield !important;
-            }
+        /* Firefox */
+        input[type=number] {
+        -moz-appearance: textfield !important;
+        }
     </style>
 </head>
 <body>
@@ -86,23 +89,22 @@
     <form method="post" class="ui form">
     <h1>Run Calculator</h1>
     <p>Enter values for two of the categories (Time/Distance/Pace) and I'll calculate the third.</p>
-    <!-- <div class="three wide field"> -->
-        <h4>Elasped Time</h4>
-        <div class="three fields">
-            <div class="field">
-                <label>Hours</label>
-                <input type="number" name="hours" min="0 value="<?php $hours;?>" placeholder="Hours">
-            </div>
-            <div class="field">
-                <label>Minutes</label>
-                <input type="number" name="minutes" min="0" max="59" maxlength="2" value="<?php $minutes;?>" placeholder="Minutes">
-            </div>
-            <div class="field">
-                <label>Seconds</label>
-                <input type="number" name="seconds" min="0" max="59" maxlength="2" value="<?php $seconds;?>" placeholder="Seconds">
-            </div>
+  
+    <h4>Elasped Time</h4>
+    <div class="three fields">
+        <div class="field">
+            <label>Hours</label>
+            <input type="number" name="hours" min="0 value="<?php $hours;?>" placeholder="Hours">
         </div>
-    <!-- </div> -->
+        <div class="field">
+            <label>Minutes</label>
+            <input type="number" name="minutes" min="0" max="59" maxlength="2" value="<?php $minutes;?>" placeholder="Minutes">
+        </div>
+        <div class="field">
+            <label>Seconds</label>
+            <input type="number" name="seconds" min="0" max="59" maxlength="2" value="<?php $seconds;?>" placeholder="Seconds">
+        </div>
+    </div>
 
     <div>
         <h4>Distance</h4>
@@ -112,22 +114,25 @@
         </div>
     </div>
 
-    <!-- <div clas="two wide field"> -->
-        <h4>Pace</h4>
-        <div class="two fields">
-            <div class="field">
-                <label>Minutes</label>
-                <input type="number" name="p_minutes" min="0" max="59" maxlength="2" placeholder="Minutes" value="<?php $p_minutes;?>">
-            </div>
-            <div class="field">
-                <label>Seconds</label>
-                <input type="number" name="p_seconds" min="0" max="59" maxlength="2" placeholder="Seconds" value="<?php $p_seconds;?>">
-            </div>
-        </div>
-    <!-- </div> -->
 
-    <!-- <input type="submit"> -->
-    <button class="ui black button" type="submit">Submit</button>
+    <h4>Pace</h4>
+    <div class="two fields">
+        <div class="field">
+            <label>Minutes</label>
+            <input type="number" name="p_minutes" min="0" max="59" maxlength="2" placeholder="Minutes" value="<?php $p_minutes;?>">
+        </div>
+        <div class="field">
+            <label>Seconds</label>
+            <input type="number" name="p_seconds" min="0" max="59" maxlength="2" placeholder="Seconds" value="<?php $p_seconds;?>">
+        </div>
+    </div>
+
+    <div class="button-wrapper">
+        <button class="ui black button" type="submit">Submit</button>
+        <button class="ui button" type="button"><a href="bmi/index.php">BMI Calculator</a></button>        
+        <button class="ui button" type="button"><a href="https://github.com/dkmullen/php_calc" target="_blank">Repo</a></button>        
+    </div>
+    
     <br />
     <br />
     </form>

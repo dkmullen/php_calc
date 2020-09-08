@@ -9,6 +9,9 @@
             background-color: #e6e8e9; 
             padding: 15px;
         }
+        .button-wrapper {
+            display: inline-block;
+        }
         /* Webkit - hide arrows on number inputs */
             input::-webkit-outer-spin-button,
             input::-webkit-inner-spin-button {
@@ -16,10 +19,10 @@
             margin: 0;
             }
 
-            /* Firefox */
-            input[type=number] {
-            -moz-appearance: textfield !important;
-            }
+        /* Firefox */
+        input[type=number] {
+        -moz-appearance: textfield !important;
+        }
     </style>
 </head>
 <body>
@@ -31,7 +34,9 @@
             if (!$height_in_inches || !$_POST["pounds"]) {
                 $error  = "Please enter both height and weight";
             } else {
-                $bmi = round(($_POST["pounds"] / ($height_in_inches * $height_in_inches)) * 703, 2);
+                $bmi = round(($_POST["pounds"] / ($height_in_inches * $height_in_inches)) * 703, 1);
+                $min_weight = round((18.5 * ($height_in_inches * $height_in_inches)) / 703, 0);
+                $max_weight = round((24.9 * ($height_in_inches * $height_in_inches)) / 703, 0);
             }
 
         }
@@ -61,7 +66,11 @@
             </div>
         </div>
         <br />
-        <button class="ui black button" type="submit">Submit</button>
+        <div class="button-wrapper">
+            <button class="ui black button" type="submit">Submit</button>
+            <button class="ui button" type="button"><a href="../index.php">Run Calculator</a></button>     
+            <button class="ui button" type="button"><a href="https://github.com/dkmullen/php_calc" target="_blank">Repo</a></button>        
+        </div>
         </form>
 
         <?php
@@ -78,6 +87,9 @@
                 echo "Weight: " . $_POST['pounds'] . " pounds";
                 echo "<br>";
                 echo "Height: " . $_POST['feet'] . " feet" . $_POST['inches'] . " inches";
+                echo "<br><br>";
+                echo "A healthy weight for this height is between $min_weight and $max_weight pounds.";
+
             }            
         }
         ?>
